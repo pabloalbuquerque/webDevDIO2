@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link, :visited{
+  text-decoration: none;  
+  color: rgb(0, 0, 0);  
+}
+
+a:hover{
+    color:white;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerAbout{
+    font-size: 25px;
+    text-align: center;
+    background-color:#b72f01;
+    color: rgb(227, 227, 227);
+    height:100px;
+    padding-top: 30px; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.headerIndex{
+    font-size: 25px;
+    text-align: center;
+    background-color:#D6DFF2;
+    color: darkblue;
+    height:100px;
+    padding-top: 30px; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.headerHours{
+    font-size: 25px;
+    text-align: center;
+    background-color:#6bf47d;
+    color: rgb(1, 94, 50);
+    height:100px;
+    padding-top: 30px; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.headerContact{
+    font-size: 25px;
+    text-align: center;
+    background-color:#ffffa0;
+    color: #a1a105;
+    height:100px;
+    padding-top: 30px; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.menuTitle{
+    margin:10px 0 5px 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #d7d7d7;
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menuItems{
+    margin:10px 0 5px 10px;
+    padding-top: 20px;
+    background-color: #d7d7d7;
+    width: 170px;
+    height: 200px;
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.menu{
+    width: 170px;
+    height: 20px;
+}
+
+.menu li{
+    padding: 15px ;
+}
+
+.homePage{
+    display: flex;
+}
+
+.contentIndex{
+    border-style: solid;
+    border-color: #D6DFF2;
+    margin: 60px 0 0 50px;    
+    width: 900px;
+    
+}
+.contentAbout{
+    border-style: solid;
+    border-color: #b72f01;
+    margin: 60px 0 0 50px;    
+    width: 900px;
+    padding: 10px;
+}
+.contentHours{
+    border-style: solid;
+    border-color: #6bf47d;;
+    margin: 60px 0 0 50px;    
+    width: 900px;
+    padding: 10px;
+}
+
+.contentContact{
+    border-style: solid;
+    border-color:#ffffa0;
+    margin: 60px 0 0 50px;    
+    width: 900px;
+    padding: 10px;
+}
+
+.titleContent{
+    color: darkblue;
+    font-size: 65px;
+    text-align: center;
+}
+
+.titleAbout{
+    color: #b72f01;
+    font-size: 65px;
+    text-align: center;    
+}
+
+.titleHours{
+    color: rgb(1, 94, 50);
+    font-size: 65px;
+    text-align: center;
+}
+
+.titleContact{
+    color: #a1a105;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.listContent{
+    padding-top:110px;
+    padding-left: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.content, p{
+    padding-top: 50px;
+
+}
+
+.services{
+    margin-top: 70px;
+}
+
+.services, h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.servicesText{
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+table{
+    text-align: center;
+    margin-left: 140px;
+}
+
+th{
+    background-color: #6bf47d;
+    color: rgb(1, 94, 50) ;
+}
+
+iframe{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.message{
+    text-align: center;
+    color: #a1a105;
+}
+
+footer{
+    margin-top:90px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
